@@ -77,8 +77,7 @@ Each writeup includes:
 ### Long term
 
 * Contribute actively to open-source security tools
-* Build 5+ serious cybersecurity projects
-* Achieve OSCP/CEH
+* Build cybersecurity projects
 * Become a professional penetration tester
 
 ---
@@ -120,18 +119,15 @@ If you're on the same journey — welcome! Let's grow together.
 
 ## Connect With Me
 
-* **GitHub:** *Your link here*
-* **LinkedIn:** *Your link here*
-* **Twitter/X:** *Your link here*
+* **GitHub:** *github.com/anirudhwillcode*
+* **LinkedIn:** *https://www.linkedin.com/in/anirudh7676/*
+* **Twitter/X:** *@itsanirudhr*
 
 Feel free to suggest improvements, open issues, or fork anything that helps your learning.
 
 ---
 
 ### ⭐ If you like this repo, drop a star!
-
-It motivates me to keep going and building.
-
 ---
 
-**Let's hack, learn, and grow.** 🔥
+
