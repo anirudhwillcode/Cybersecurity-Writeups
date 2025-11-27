@@ -1,0 +1,64 @@
+# What is data called in each layer of the OSI
+
+| Application Layer | Data    |
+|-------------------|---------|
+| Presentation Layer| Data    |
+| Session Layer     | Data    |
+| Transport Layer   | Segment |
+| Network Layer     | Packet  |
+| Data Link Layer   | Frame   |
+| Physical Layer    | Bits    |
+
+---
+
+## Journey of Data Across the OSI Model
+
+1. **Application Layer (Layer 7)**
+    - User interacts with an app (browser, email client, etc.)
+    - Data is created (HTTP request, email message, DNS query)
+    - Output: **DATA**
+
+2. **Presentation Layer (Layer 6)**
+    - Data is formatted, encrypted, compressed
+    - Examples: SSL/TLS encryption, encoding, compression
+    - Output: **FORMATTED/ENCRYPTED DATA**
+
+3. **Session Layer (Layer 5)**
+    - Session is created between devices
+    - Manages start, maintain, end of communication
+    - Handles checkpoints, dialog control
+    - Output: **SESSION DATA**
+
+4. **Transport Layer (Layer 4)**
+    - Breaks data into segments (TCP) or datagrams (UDP)
+    - Adds port numbers (source & destination)
+    - Ensures reliable delivery (TCP) or fast delivery (UDP)
+    - Output: **SEGMENTS (TCP) or DATAGRAMS (UDP)**
+
+5. **Network Layer (Layer 3)**
+    - Adds logical addressing (source & destination IP)
+    - Performs routing: decides best path to destination
+    - Output: **PACKETS**
+
+6. **Data Link Layer (Layer 2)**
+    - Adds MAC addresses (source & destination)
+    - Frames the packet for transmission on the local network
+    - Handles error detection (CRC), switching
+    - Output: **FRAMES**
+
+7. **Physical Layer (Layer 1)**
+    - Converts frames → bits (0s and 1s)
+    - Sends them as electrical signals / light pulses / radio waves
+    - Output: **BITS** (signals travelling over wire or air)
+
+---
+
+## On the Receiving Side
+
+- Physical Layer turns signals → bits  
+- Data Link Layer turns bits → frames  
+- Network Layer extracts packet → checks IP  
+- Transport Layer reassembles segments → data  
+- Session Layer resumes session  
+- Presentation Layer decrypts/decompresses  
+- Application Layer gives final data to user (webpage, message, etc.)

@@ -1,0 +1,61 @@
+# Network Topologies
+
+- A Network Topology is an arragement and physical or logical connection of devices in the network
+- Computers are hosts, such as clients and servers, that actively use the network. They also include network components such as switches, bridges, and routers
+
+- We can divide the entire network topology area into three areas:
+
+
+1. Connections          
+2. Nodes - Network Interface Controller ( NICs)
+3. Classifications ( Point to Point , Star etc)
+
+
+### 1 . Connections
+
+
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+### 2. Nodes (NIC)
+
+**NIC = Network Interface Card**
+*A Network Interface Card (NIC) is a hardware component—built-in or external—that allows a computer or device to connect to a network (LAN, Wi-Fi, internet, etc.).
+It acts as the bridge between your device and the network by sending and receiving data.*
+
+### 3. Classifications
+
+1. Point to Point
+2. Star
+3. Mesh
+4. Bus
+5. Ring
+6. Tree
+7. Daisy Chain
+
+#### 1 . Point to Point
+![alt text](image-9.png)
+
+- Simplest form of connection
+
+#### 2 . Bus
+![alt text](image-10.png)
+
+- All Hosts are connected to a single transmission medium
+- No central component that controls
+- Only one host can send at a time
+
+#### 3. Star
+![alt text](image-11.png)
+
+- Each host is connected to the central network component via a separate link
+
+#### 4. Ring 
+![alt text](image-12.png)
+
+#### 5. Mesh
+![alt text](image-13.png)
+- Each host is connected to every other host in the network in a fully meshed structure. This means that the hosts are meshed with each other. This technique is primarily used in WAN or MAN to ensure high reliability and bandwidth.
+
+#### 6. Tree
+![alt text](image-14.png)
